@@ -2,12 +2,151 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>CV</title>
 </head>
-<body>
+<body id="fond">
     
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#competences">Mes Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiences">Mes Expériences</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Loisirs</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+    <div class="container desc">
+        <div class="images">
+          <img class="animate__animated animate__rubberBand" src="img/photocv.png" alt="">
+        </div>
+
+        <div class="images__texte" id="accueil">
+          <h1 class="animate__animated animate__backInDown">Riviere Guillaume</h1>
+          <p class="animate__animated animate__backInDown">20 ans👤</p>
+          <p class="animate__animated animate__backInDown">Develloper Web/Mobile Junior</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+      <div class="competences" id="competences" >
+        <h2 class="animate__animated animate__backInDown">Mes Compétences</h2>
+      </div>
+<!--  HTML/CSS  --> 
+      <div class="row">
+        <div class="col HTML">
+          HTML-CSS
+          <div class="barre">
+
+          </div>
+          <div class="barre_buttom">
+            
+          </div>
+        </div>
+      </div>
+<!--  PHP  --> 
+      <div class="row">
+        <div class="col PHP">
+          PHP
+          <div class="barre">
+
+          </div>
+          <div class="barre_buttom">
+            
+          </div>
+        </div>
+      </div>
+<!--  JS  --> 
+      <div class="row">
+        <div class="col JS">
+          JS
+          <div class="barre">
+
+          </div>
+          <div class="barre_buttom">
+            
+          </div>
+        </div>
+      </div>
+<!--  MYSQL  --> 
+      <div class="row">
+        <div class="col MYSQL">
+          MYSQL
+          <div class="barre">
+
+          </div>
+          <div class="barre_buttom">
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="experiences" id="experiences">
+          <h2 class="animate__animated animate__backInDown">Mes Experiences</h2>
+      </div>
+
+      <div class="experiences__texte">
+        <p>2020 - Project Web |  Création d'un site De Traiteur</p>
+        <p>2019 - Stage Reseaux Lycées Henry Senez</p>
+        <p>2018 - BAC PRO METTALURGIE</p>
+        <p>2017 - BEP METTALURGIE</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="loisirs">
+          <h2 class="animate__animated animate__backInDown">Loisirs</h2>
+      </div>
+
+      <div class="loisirs__texte">
+        <p>Cinéma</p>
+        <p>Montage Vidéos</p>
+      </div>
+
+    </div>
+
     
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
+<footer>
+  <div class="container">
+    <div class="reseaux">
+      <a href=""><img class="animate__animated animate__bounceInLeft" src="img/reseaux/facebook.png" alt="facebook"></a>
+      <a href=""><img class="animate__animated animate__bounceInLeft" src="img/reseaux/instagram.png" alt="instagram"></a>
+      <a href=""><img class="animate__animated animate__bounceInLeft" src="img/reseaux/twitter.png" alt="twitter"></a>
+    </div>
+    <div class="texte">
+        <p class="animate__animated animate__backInUp">Copyright® <a href="https://www.wewebstyle.com/">WeWebStyle</a></p>
+        <img class="animate__animated animate__backInUp" src="img/logos.png" alt="wewebstyle logos">
+    </div>
+  </div>
+</footer>
+
 </html>
