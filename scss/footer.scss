@@ -1,0 +1,28 @@
+footer {
+    background-color: black;
+    height: 120px;
+    .container {
+        display: flex;
+        color: blue;
+    }
+    .texte {
+        padding-top: 15px;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        img {
+            height: 20px;
+            margin-top: -20px;
+        }
+    }
+}
+
+
+.reseaux {
+    padding-top: 15px;
+    img {
+        height: 60px;
+        padding: 5px;
+    }
+}
+

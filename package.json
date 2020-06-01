@@ -1,0 +1,6 @@
+{
+ "scripts": {
+    "dev": "npx node-sass scss/main.scss css/style.css",
+    "prod": "npx node-sass scss/main.scss css/style.css && npx postcss css/style.css -o css/style.css -u autoprefixer && npx postcss css/style.css -o css/style.css -u cssnano"
+    }
+}

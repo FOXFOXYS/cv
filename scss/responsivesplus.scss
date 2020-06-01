@@ -1,0 +1,75 @@
+@media only screen and (min-width: 320px) {
+    .images__texte {
+        h1 {
+            font-size: 15px;
+        }
+    }
+    .competences {
+        h2 {
+            font-size: 19px;
+        }
+    }
+    .experiences {
+        h2 {
+            font-size: 19px;
+        }
+    }
+    .experiences__texte {
+        p {
+            font-size: 12px;
+        }
+    }
+    .loisirs__texte {
+        p {
+            font-size: 12px;
+        }
+    }
+    .reseaux {
+        img {
+            height: 26px;
+        }
+    }
+    .loisirs {
+        h2 {
+            font-size: 19px;   
+        }
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .images__texte {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .competences {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .experiences {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .experiences__texte {
+        p {
+            font-size: 20px;
+        }
+    }
+    .reseaux {
+        img {
+            height: 60px;
+        }
+    }
+    .loisirs {
+        h2 {
+            font-size: 30px; 
+        }
+    }
+    .loisirs__texte {
+        p {
+            font-size: 20px;
+        }
+    }
+}

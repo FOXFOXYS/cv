@@ -1,0 +1,99 @@
+
+.HTML {
+    margin: 0 auto;
+    .barre {
+        background-color: #ebebeb;
+        height: 20px;
+        width: 36%;
+    }
+    .barre_buttom {
+        background-color: red;
+        height: 20px;
+        width: 0px;
+        animation-name: html;
+        position: relative;
+        top: -20px;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+.PHP {
+    .barre {
+        background-color: #ebebeb;
+        height: 20px;
+        width: 36%;
+    }
+    .barre_buttom {
+        background-color: red;
+        height: 20px;
+        width: 0px;
+        position: relative;
+        top: -20px;
+        animation-name: php;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+.JS {
+    .barre {
+        background-color: #ebebeb;
+        height: 20px;
+        width: 36%;
+    }
+    .barre_buttom {
+        background-color: red;
+        height: 20px;
+        width: 0px;
+        position: relative;
+        top: -20px;
+        animation-name: js;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+.MYSQL {
+    .barre {
+        background-color: #ebebeb;
+        height: 20px;
+        width: 36%;
+    }
+    .barre_buttom {
+        background-color: red;
+        height: 20px;
+        width: 0px;
+        position: relative;
+        top: -20px;
+        animation-name: sql;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+
+@keyframes html {
+    from { width: 0%};
+    to { width: 30%};
+}
+
+@keyframes php {
+    from { width: 0%};
+    to { width: 2%};
+}
+
+@keyframes js {
+    from { width: 0%};
+    to { width: 19%};
+}
+
+@keyframes sql {
+    from { width: 0%};
+    to { width: 30%};
+}
+
+.row {
+    margin: 0 390px;
+    width: 900px;
+}
